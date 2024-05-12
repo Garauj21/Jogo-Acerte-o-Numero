@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+  --font-family: "Kode Mono", monospace;
+  --bg-color:#5800FF;
+  --primary-color: #0096FF;
+  --secondary-color:#00D7FF;
+  --tertiary-color:#72FFFF;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 20px;
+    color: var(--tertiary-color);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--tertiary-color);
+    display: inline-block;
+    font-size: 5em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.voce-disse .o-numero-e {
+    color: var(--tertiary-color);
+}
+
+.btn-tentar {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border:0;
+    border-radius: 15px;
+    background-color: var(--tertiary-color);
+    color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.btn-tentar:hover {
+    border: 3px solid var(--tertiary-color);
+    background-color: var(--secondary-color);
+    margin-top: 45px;
+}
